@@ -1,0 +1,95 @@
+.testimonial-section {
+  padding: 120px 8%;
+  text-align: center;
+  background: transparent;
+  color: #fff;
+}
+
+.testimonial-tag {
+  color:  #e10600;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+.testimonial-title {
+  font-size: 48px;
+  margin: 10px 0 50px;
+  font-family: "Playfair Display", serif;
+}
+
+.testimonial-box {
+  max-width: 850px;
+  margin: auto;
+  animation: fadeIn 0.6s ease;
+}
+
+.quote {
+  font-size: 60px;
+  color:   #e10600;;
+}
+
+.testimonial-text {
+  font-size: 30px;
+  line-height: 2;
+  color:  #fff;
+}
+
+.testimonial-name {
+  margin-top: 25px;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+.testimonial-nav {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.testimonial-nav button {
+  background: none;
+  border: 1px solid   #e10600;;
+  color:   #e10600;;
+  font-size: 30px;
+  padding: 6px 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.testimonial-nav button:hover {
+  background:   #e10600;;
+  color: #000;
+}
+
+.avatars {
+  display: flex;
+  gap: 20px;
+}
+
+.avatars img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.avatars img.active {
+  opacity: 1;
+  border: 2px solid #f4c430;
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

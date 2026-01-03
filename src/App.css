@@ -1,0 +1,23 @@
+.app-background {
+  min-height: 100vh;
+  background-image: url("/images/restaurant.jpg"); /* same home bg */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* DARK OVERLAY ONLY FOR READABILITY */
+.app-background::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 0;
+}
+
+/* ALL CONTENT ABOVE BACKGROUND */
+section, nav {
+  position: relative;
+  z-index: 1;
+}

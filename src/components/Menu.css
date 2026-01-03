@@ -1,0 +1,131 @@
+.menu-section {
+  padding: 100px 10%;
+  background: #f5f2ed;
+  color: #1c1c1c;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.menu-header span {
+  color: #ff2d2d;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+.menu-header h2 {
+  font-size: 42px;
+  font-family: "Playfair Display", serif;
+}
+
+/* Tabs */
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.menu-tabs button {
+  background: transparent;
+  border: 1px solid #d1a15d;
+  padding: 14px 26px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.menu-tabs button.active,
+.menu-tabs button:hover {
+  background: #ff2d2d;
+  color: #000;
+}
+
+/* Content */
+.menu-content {
+  max-width: 850px;
+  margin: auto;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 2px dashed #ccc;
+  font-size: 20px;
+}
+
+.menu-item strong {
+  color: #ff2d2d;
+  
+}
+
+/* Animation */
+.fade-in {
+  animation: fade 0.5s ease-in-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Price header row */
+.menu-price-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #d1a15d;
+}
+
+.menu-price-header span {
+  flex: 1;
+}
+
+.price-columns {
+  display: flex;
+  gap: 28px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+}
+
+.price-columns small {
+  min-width: 60px;
+  text-align: right;
+}
+.menu-price-heading {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  margin-bottom: 14px;
+  border-bottom: 2px solid #d1a15d;
+}
+
+.menu-price-heading span {
+  flex: 1;
+}
+
+.price-types {
+  display: flex;
+  gap: 28px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #555;
+}
+
+.price-types small {
+  min-width: 70px;
+  text-align: right;
+}

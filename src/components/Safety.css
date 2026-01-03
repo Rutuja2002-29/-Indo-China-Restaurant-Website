@@ -1,0 +1,16 @@
+.safety-section {
+  background: linear-gradient(
+    rgba(28,28,28,0.85),
+    rgba(28,28,28,0.85)
+  );
+  color: var(--cream-white);
+}
+
+.safety-card {
+  background-color: rgba(63,95,60,0.15);
+  border-left: 4px solid var(--olive-green);
+}
+
+.safety-title {
+  color: var(--primary-gold);
+}
